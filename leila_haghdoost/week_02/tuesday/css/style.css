@@ -1,0 +1,94 @@
+body{
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header{
+  background-color: #EdEdEd;
+}
+
+nav{
+  height: 90px;
+  background-color: #142773;
+  color: #FFFFFF;
+  padding: 10px;
+  display:inline-block;
+  width:70%;
+  margin: 8px 0px  0px 0px;
+  border-radius: 10px 10px 0px 0px;
+  box-sizing: border-box;
+  position: relative;
+  top: 4px;
+  left: 15%;
+  right: 15%;
+  padding-top: 20px;
+  /* padding-left: 30px;
+  padding-right: 30px; */
+}
+.socialMediaIcon{
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 5px;
+  margin-top: 0px;
+  max-width: 600px;
+  width: 25px;
+  height: 25px;
+  float: right;
+
+
+
+}
+.title{
+
+  float:left;
+}
+.socialIcon{
+float:right;
+
+  padding: 2px;
+}
+.heroArea{
+  background-color: yellow;
+  display: block;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+main{
+  background-color: #E6E6E6;
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+  width:70%;
+  position: relative;
+}
+
+#promoArea{
+}
+
+h1#title{
+  text-align: center;
+  margin-top: 20px;
+}
+
+#columnContainer{
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid blue;
+  height: auto;
+}
+
+.column{
+  height: 200px;
+  width: 33%;
+  /* border: 1px solid red; */
+  display: inline-block;
+  background-color: gray;
+  /* margin: 20px; */
+}

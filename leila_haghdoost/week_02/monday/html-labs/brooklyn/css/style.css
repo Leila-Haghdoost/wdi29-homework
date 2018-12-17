@@ -1,0 +1,83 @@
+/*
+
+## Style Hints:
+
+Body Font Size = 12px
+	 Line Height = 17px
+	 Font Family = "Times New Roman", serif
+	 Font Color = #656565
+
+Link Hover Color = #20222a
+
+*/
+
+body {
+font-family: "Times New Roman", serif;
+color: #656565;
+margin:auto;
+}
+
+#center img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   width: 50%;
+   border: 3px solid white;
+}
+#bookAndLyn img{
+  margin-left: 23%;
+
+  display: block;
+width: auto;
+
+  padding: 20px;
+   border: 3px solid white;
+}
+#bookLyn{
+margin-left: 0;
+}
+#content{
+  margin: auto;
+  width: 50%;
+
+}
+
+
+
+h3 {
+  font-size: 18px;
+}
+
+#date {
+  font-size: 13px;
+  color: #05AFE8;
+}
+
+p{
+  font-size: 14px;
+}
+
+.rowImag {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+   border: 3px solid white;
+
+}
+
+ .rowImag img{
+padding: 1px;
+  width: 24%;
+
+}
+#buttom{
+font-size: 7pt;
+padding: 10px;
+margin:  auto;
+width: 50%;
+}
+/* 	width: 30%;
+	float: left;
+	margin:1.66%; */

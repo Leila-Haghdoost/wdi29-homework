@@ -1,0 +1,64 @@
+
+html, body{
+   margin:0px;
+   padding:0px;
+
+}
+body{
+  background: url(../images/bg_body.jpg) repeat-x;
+background-size: auto 440px;
+}
+
+ul {
+  font-family: lato;
+  font-size: 10pt;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    border-bottom: 2px solid white;
+    box-shadow:2px 2px 5px grey;
+}
+li {
+
+    float: left;
+}
+li a {
+    display: block;
+    color: #E0E0E0;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+  border-top: 3px solid #0CB3F5;
+    background-color: #111;
+}
+#logo{
+display: block;
+width:auto;
+margin-left: 7%;
+padding: 15px 15px 15px 0;
+}
+.socialMedia{
+  background: url(../images/rss_h.png) no-repeat;
+  height: 60px;
+  float: right;
+  margin-right: 100px;
+}
+.socialMedia:hover{
+  background: url(../images/rss_C.png) no-repeat;
+  height: 60px;
+  float: right;
+  margin-right: 100px;
+}
+
+#heroImg{
+  display: block;
+  width:auto;
+margin-left: auto;
+margin-right: auto;
+image-shadow: 2px 2px 5px red;
+}

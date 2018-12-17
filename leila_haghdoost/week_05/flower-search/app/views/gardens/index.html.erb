@@ -1,0 +1,10 @@
+<h2>Gardens list:</h2>
+<ul>
+<% @gardens.each do |garden| %>
+<li>
+  <a href="<%= garden_path(garden.id) %>">
+  <%= garden.title %>
+</a>
+</li>
+<% end %>
+</ul>

@@ -1,0 +1,27 @@
+<%= form_for @flower do |f| %>
+<fieldset>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+</fieldset>
+<fieldset>
+  <%= f.label :image %>
+  <%= f.text_field :image %>
+</fieldset>
+<fieldset>
+  <%= f.label :height_feet %>
+  <%= f.text_field :height_feet %>
+</fieldset>
+<fieldset>
+  <%= f.label :blooms_in %>
+  <%= f.text_field :blooms_in %>
+</fieldset>
+<fieldset>
+  <%= f.label :features %>
+  <%= f.text_field :features %>
+</fieldset>
+<fieldset>
+  <%= f.label :garden_id, 'Garden' %>
+  <%= f.collection_select :garden_id, Garden.all, :id, :title, prompt: 'Please choose the garden'  %> <!--???-->
+</fieldset>
+<%= f.submit %>
+<% end %>

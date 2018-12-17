@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyText
+  built_year: 2018-10-10
+  image: MyText
+
+two:
+  title: MyText
+  built_year: 2018-10-10
+  image: MyText

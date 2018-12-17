@@ -1,0 +1,16 @@
+
+<%= form_for  @garden do |f| %>
+<fieldset>
+  <%= f.label :title %><!--gives us a <lable> tag -->
+  <%= f.text_field :title %> <!--gives us <inpute type = "text" -->
+</fieldset>
+<fieldset>
+  <%= f.label :built_year %>
+  <%= f.text_field :built_year %>
+</fieldset>
+<fieldset>
+  <%= f.label :image, 'Image URL'%>
+  <%= f.text_field :image  %>
+</fieldset>
+<%= f.submit %>
+<% end %>

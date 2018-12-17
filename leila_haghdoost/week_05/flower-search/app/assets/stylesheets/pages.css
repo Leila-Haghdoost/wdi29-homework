@@ -1,0 +1,21 @@
+body {
+    font-family: Helvetica;
+    background-color: #FCC44C;
+    color: white;
+    max-width: 500px;
+   margin: 0px auto;
+}
+h1{
+  color: #361704;
+}
+.container{
+  background-color: lightgrey;
+  width: 100%;
+  /* border: 25px solid green; */
+  padding: 25px;
+  /* margin: 25px; */
+
+}
+a{
+  color: #361704;
+}

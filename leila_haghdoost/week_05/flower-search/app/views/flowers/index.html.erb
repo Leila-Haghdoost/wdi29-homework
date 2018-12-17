@@ -1,0 +1,10 @@
+<h2>Index of flowers</h2>
+<ul>
+  <% @flowers.each do |flower| %>
+  <li>
+    <a href="<%= flower_path(flower.id) %>">
+      <%= flower.name %>
+    </a>
+  </li>
+  <% end %>
+</ul>

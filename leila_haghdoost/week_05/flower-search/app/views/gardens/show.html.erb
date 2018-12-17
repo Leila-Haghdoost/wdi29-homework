@@ -1,0 +1,24 @@
+<h2><%= @garden.title %></h2>
+
+
+<div>
+  <%= link_to 'Edit This Garden', edit_garden_path(@garden) %>
+  |
+  <%= link_to 'Delete This Garden', garden_path(@garden), method: 'delete' %>
+</div>
+<br>
+<strong>Built year:</strong> <%= @garden.built_year %><br>
+
+
+
+
+<%= image_tag @garden.image, alt: @garden.title, class: 'gardens' %>
+
+<h4>Flowers in this garden:</h4>
+<ul>
+<% @garden.flowers.each do |flower| %>
+  <li>
+    <%= link_to flower.name, flower_path(flower.id) %>
+  </li>
+<% end %>
+</ul>

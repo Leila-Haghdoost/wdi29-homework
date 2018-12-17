@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FlowerSearch</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <div class="container">
+<h1>All my favourite gardens</h1>
+<nav>
+  <%= link_to 'Gardens Index', gardens_path %>
+  |
+  <%= link_to 'Create New Garden', new_garden_path %>
+  |
+  <%= link_to 'Flowre Index', flowers_path %>
+  |
+  <%= link_to 'Create Flower', flowers_new_path %>
+</nav>
+</div>
+<hr>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

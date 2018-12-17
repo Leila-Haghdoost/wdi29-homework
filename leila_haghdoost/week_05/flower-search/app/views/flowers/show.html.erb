@@ -1,0 +1,16 @@
+<h2>Flower <%= @flower.name %></h2>
+
+
+
+
+
+<!-- <% if @flower.image.present? %> -->
+<img src="<%= @flower.image %>"alt="<%= @flower.name %>"></p>
+<!-- <%= image_tag @flower.image, alt: @flower.name, class: 'flower' %>
+
+<% end %> -->
+<%= link_to 'Edit this flower', flower_edit_path(@flower.id) %> <!-- ????????????? -->
+<%= link_to 'Delete this flower', flower_delete_path(@flower.id) %> <!-- ????????????? -->
+<p><strong>Height_feet:</strong> <%= @flower.height_feet%></p>
+<p><strong>Blooms_in:</strong> <%= @flower.blooms_in %></p>
+<p><strong>Features:</strong> <%= @flower.features%></p>
